@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{pageTitle}}</title>
+</head>
+
+<body>
+    {{> header}}
+    {{#if welcomeMessage}}
+        <p>{{welcomeMessage}}</p>
+    {{/if}}
+
+    {{! welcomeMessage}}
+    <p>Some text here</p>
+
+    {{> footer}}
+</body>
+</html>
